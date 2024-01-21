@@ -23,5 +23,6 @@ public class RoadCamera {
         } else {
             System.out.println("Скорость не превышена");
         }
+        System.out.println("Камера фиксации превышения скорости работает отлично!");
     }
 }

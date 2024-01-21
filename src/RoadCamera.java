@@ -24,6 +24,6 @@ public class RoadCamera {
             System.out.println("Скорость не превышена");
         }
         System.out.println("Вы ехали со скоростью: " + OncomingSpeed + " км/ч");
-        System.out.println("Вы супер!");
+        System.out.println("Вы доехали!");
     }
 }

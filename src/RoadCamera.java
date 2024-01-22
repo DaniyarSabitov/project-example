@@ -15,6 +15,7 @@ public class RoadCamera {
 
         if (oncomingSpeed >= criminalSpeed) {
             System.out.println("Вызов полиции...");
+            System.out.println("Машина находится в угоне");
         } else if (oncomingSpeed > maxOncomingSpeed) {
             int overSpeed = oncomingSpeed - maxOncomingSpeed;
             int gradesCount = overSpeed / speedFineGrade;

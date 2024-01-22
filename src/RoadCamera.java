@@ -25,5 +25,9 @@ public class RoadCamera {
         }
         System.out.println("Вы ехали со скоростью: " + OncomingSpeed + " км/ч");
         System.out.println("Вы доехали!");
+
+        If (oncomingSpeed > 250) {
+            System.out.println("Гоночная машина обнаружена");
+        }
     }
 }
